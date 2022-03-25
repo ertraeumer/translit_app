@@ -1,0 +1,23 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+  .hdd {
+    width: 35% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hdd {
+    width: 40% !important;
+  }
+
+  .dict {
+    width: 40% !important;
+    min-height: 200px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+ 
